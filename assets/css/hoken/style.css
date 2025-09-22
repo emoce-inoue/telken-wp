@@ -662,7 +662,7 @@ summary::-webkit-details-marker {
   display: grid;
   row-gap: 10px;
   inline-size: fit-content;
-  margin-inline: auto;
+  margin-inline-end: auto;
   font-size: calc(14 * var(--rem-ratio));
   font-weight: var(--font-normal);
 }

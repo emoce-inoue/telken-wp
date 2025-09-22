@@ -13,20 +13,20 @@ if (!defined('ABSPATH')) exit;
       <h2 class="l-section__title js-fade">お問い合わせ</h2>
       <div class="l-footer js-fade">
         <div class="l-footer__content">
-          <a href="tel:0120844628" class="l-footer__link">
+          <a href="tel:0120-921-907" class="l-footer__link">
             <div class="l-footer__icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/tel-icon.webp" width="190" height="206" alt="電話のアイコン" /></div>
-            <p><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/tel-time.webp" width="776" height="179" alt="0120-844-628 受付時間 10:00-19:00 [平日]" /></p>
+            <p><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/tel-time.webp" width="776" height="179" alt="0120-921-907 受付時間 10:00-19:00 [平日]" /></p>
           </a>
-          <p class="l-footer__stop-text">配信停止をご希望の場合は<a href="" class="l-section__link" target="_blank" rel="noopener">こちら</a>からお手続きください。</p>
+          <p class="l-footer__stop-text">配信停止をご希望の場合は<a href="https://form.run/@project-planning-xDzhW6pGGYHG6JOD0lI2" class="l-section__link" target="_blank" rel="noopener">こちら</a>からお手続きください。</p>
         </div>
         <div class="l-footer__info">
-          <p class="l-footer__info-bold">株式会社フィナンシャル・エージェンシー</p>
-          <p>〒150-0013 東京都渋谷区恵比寿１丁目19-19<br />恵比寿ビジネスタワー 16F</p>
+          <p class="l-footer__info-bold">ディーニーズ株式会社</p>
+          <p>〒144-0051<br />東京都大田区西蒲田7-25-7&emsp;グレワンビル</p>
         </div>
-        <p class="l-footer__approval-number">承認番号：xxxxx</p>
+        <p class="l-footer__approval-number">【D50187】</p>
       </div>
     </div>
-    <p class="l-footer__copyright js-fade">&copy; FINANCIAL AGENCY, Inc.</p>
+    <p class="l-footer__copyright js-fade">Copyright &copy; 2002-2025 Dneeds CO., LTD.</p>
   </footer>
 
   </main>

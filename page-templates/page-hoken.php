@@ -163,7 +163,7 @@ get_template_part('templates/hoken/header');
         </div>
         <div class="l-estimate__cta js-fade">
           <p class="l-estimate__message">お気軽にご相談ください</p>
-          <a href="https://form.run/@project-planning-resources-X7hcSx5WtYPOTXxvwTnM" target="_blank" rel="noopener" class="l-estimate__button">
+          <a href="https://form.run/@teleshop" target="_blank" rel="noopener" class="l-estimate__button">
             <p class="l-estimate__price"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/yen0.webp" width="185" height="132" alt="¥0" /></p>
             <p class="l-estimate__button-text">見積<small class="l-estimate__price-small">を</small>希望する</p>
           </a>

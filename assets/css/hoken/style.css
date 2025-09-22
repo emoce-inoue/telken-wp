@@ -479,6 +479,10 @@ summary::-webkit-details-marker {
   row-gap: 20px;
 }
 
+.l-section__inner--cta {
+  background-color: var(--color-yellowscale-100);
+}
+
 .l-estimate__content {
   display: grid;
   grid-auto-flow: column;
@@ -551,7 +555,23 @@ summary::-webkit-details-marker {
   border-radius: var(--rounded-l);
 }
 
-.l-estimate__message {
+.l-estimate {
+  display: grid;
+  row-gap: 25px;
+}
+
+.l-cta {
+  display: grid;
+  row-gap: 10px;
+  margin-block-start: 30px;
+}
+
+.l-cta__text {
+  font-weight: var(--font-normal);
+  font-size: calc(17 * var(--rem-ratio));
+}
+
+.l-cta__message {
   display: grid;
   grid-template-columns: 0.5fr auto 0.5fr;
   align-items: center;
@@ -561,8 +581,8 @@ summary::-webkit-details-marker {
   text-align: center;
 }
 
-.l-estimate__message::before,
-.l-estimate__message::after {
+.l-cta__message::before,
+.l-cta__message::after {
   content: '';
   inline-size: 22px;
   block-size: 3px;
@@ -570,58 +590,49 @@ summary::-webkit-details-marker {
   justify-self: end;
 }
 
-.l-estimate__message::before {
+.l-cta__message::before {
   rotate: 60deg;
 }
 
-.l-estimate__message::after {
+.l-cta__message::after {
   rotate: -60deg;
   justify-self: start;
 }
 
-.l-estimate {
-  display: grid;
-  row-gap: 25px;
-}
-
-.l-estimate__button {
-  --price-element-size: 66px;
+.l-cta__button {
+  --price-element-size: 86px;
 
   position: relative;
   display: grid;
-  padding: 15px 15px 15px var(--price-element-size);
+  padding: 25px 25px 25px var(--price-element-size);
   background-color: var(--color-orangescale-100);
   border-radius: var(--rounded-infinity);
   color: var(--color-grayscale-0);
   box-shadow: 2.5px 2.5px 1.25px var(--color-grayscale-100);
 }
 
-.l-estimate__price {
+.l-cta__price {
   position: absolute;
   inset-inline-start: 0;
   inset-block-start: -3px;
   display: grid;
   align-items: center;
-  max-inline-size: 66px;
+  max-inline-size: 86px;
   aspect-ratio: 1;
-  padding: 10px;
+  padding: 15px;
   background-color: var(--color-grayscale-0);
   border: 2.3px solid var(--color-orangescale-100);
   border-radius: var(--rounded-infinity);
 }
 
-.l-estimate__button-text {
-  font-size: calc(23 * var(--rem-ratio));
+.l-cta__button-text {
+  font-size: calc(25 * var(--rem-ratio));
   text-align: center;
+  letter-spacing: var(--tracking-relaxed);
 }
 
-.l-estimate__price-small {
+.l-cta__price-small {
   font-size: calc(20 * var(--rem-ratio));
-}
-
-.l-estimate__cta {
-  display: grid;
-  row-gap: 10px;
 }
 
 .l-footer__link {

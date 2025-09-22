@@ -170,7 +170,7 @@ get_template_part('templates/hoken/header');
       <p class="l-cta__text js-fade">ボタンをクリックすると提携先である総合保険代理店 株式会社フィナンシャル・エージェンシーのページに遷移いたします。</p>
       <div class="l-cta js-fade">
         <p class="l-cta__message">お気軽にご相談ください</p>
-        <a href="https://form.run/@teleshop" target="_blank" rel="noopener" class="l-cta__button">
+        <a href="https://form.run/@FAhokenservice" target="_blank" rel="noopener" class="l-cta__button">
           <p class="l-cta__price"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/yen0.webp" width="100" height="84" alt="¥0" /></p>
           <p class="l-cta__button-text">見積<small class="l-cta__price-small">を</small>希望する</p>
         </a>

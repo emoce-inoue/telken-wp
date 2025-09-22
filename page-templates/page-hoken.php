@@ -161,13 +161,19 @@ get_template_part('templates/hoken/header');
             <p class="l-estimate__detail">もちろん！契約中の保険の条件がよければそのまま継続することをおすすめしております。</p>
           </div>
         </div>
-        <div class="l-estimate__cta js-fade">
-          <p class="l-estimate__message">お気軽にご相談ください</p>
-          <a href="https://form.run/@teleshop" target="_blank" rel="noopener" class="l-estimate__button">
-            <p class="l-estimate__price"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/yen0.webp" width="185" height="132" alt="¥0" /></p>
-            <p class="l-estimate__button-text">見積<small class="l-estimate__price-small">を</small>希望する</p>
-          </a>
-        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-section__inner l-section__inner--cta">
+      <p class="l-cta__text js-fade">ボタンをクリックすると提携先である総合保険代理店 株式会社フィナンシャル・エージェンシーのページに遷移いたします。</p>
+      <div class="l-cta js-fade">
+        <p class="l-cta__message">お気軽にご相談ください</p>
+        <a href="https://form.run/@teleshop" target="_blank" rel="noopener" class="l-cta__button">
+          <p class="l-cta__price"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hoken/yen0.webp" width="100" height="84" alt="¥0" /></p>
+          <p class="l-cta__button-text">見積<small class="l-cta__price-small">を</small>希望する</p>
+        </a>
       </div>
     </div>
   </section>
